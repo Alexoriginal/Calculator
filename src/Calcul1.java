@@ -43,7 +43,7 @@ public class Calcul1 {
                 result=num1/num2;
                 default:
                     System.out.println("Операция отсутствуе.Спробуй ще раз");
-                    result=calcul(num1,num2,getOperation());
+                    result=calcul(num1,num2,operation);
         }
         return result;
     }
